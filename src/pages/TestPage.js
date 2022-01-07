@@ -1,10 +1,8 @@
-import './App.css';
-import Button from './components/Button';
-import Test from './pages/TestPage';
+import Button from '../components/Button';
 
-function App() {
+function Test() {
   return (
-    <div className="App">
+    <div>
       <Button size="L" color="strong">다음</Button>
       <Button size="L" color="soft">다음</Button>
       <Button size="L" color="white">다음</Button>
@@ -21,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default Test;
