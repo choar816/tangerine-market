@@ -7,6 +7,7 @@ const Button = styled.button`
   font-size: 14px;
   line-height: 17.5px;
   
+  /* size */
   ${props => props.size === "L" && `
     padding: 13px 148px;
     border-radius: 44px;
@@ -26,6 +27,7 @@ const Button = styled.button`
     line-height: 15px;
   `}
 
+  /* color */
   ${props => props.color === "strong" && `
     background-color: #F26E22;
     border: 1px solid #F26E22;
