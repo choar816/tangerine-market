@@ -1,4 +1,6 @@
 import Button from '../components/Button';
+import Input from '../components/Input';
+import LabeledInput from '../components/LabeledInput';
 
 function Test() {
   return (
@@ -15,6 +17,9 @@ function Test() {
       <Button size="S" color="strong">취소</Button>
       <Button size="S" color="soft">취소</Button>
       <Button size="S" color="white">취소</Button>
+      
+      <LabeledInput label="아이디" type="text"></LabeledInput>
+      <LabeledInput label="비밀번호" type="password"></LabeledInput>
     </div>
   );
 }
