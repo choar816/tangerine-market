@@ -1,6 +1,8 @@
 import Button from '../components/Button';
 import Input from '../components/Input';
 import LabeledInput from '../components/LabeledInput';
+import UserSearch from '../components/UserSearch';
+import UserFollow from '../components/UserFollow'
 
 function Test() {
   return (
@@ -20,6 +22,9 @@ function Test() {
       
       <LabeledInput label="아이디" type="text"></LabeledInput>
       <LabeledInput label="비밀번호" type="password"></LabeledInput>
+
+      <UserSearch userName="애월읍 위니브 감귤농장" userId="@weniv_Mandarin"></UserSearch>
+      <UserFollow userName="애월읍 위니브 감귤농장" userId="@weniv_Mandarin"></UserFollow>
     </div>
   );
 }
