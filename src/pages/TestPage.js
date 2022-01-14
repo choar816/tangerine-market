@@ -1,4 +1,5 @@
 import Button from '../components/Button';
+import ButtonImage from '../components/ButtonImage';
 import Input from '../components/Input';
 import LabeledInput from '../components/LabeledInput';
 import UserSearch from '../components/UserSearch';
@@ -19,6 +20,8 @@ function Test() {
       <Button size="S" color="strong">취소</Button>
       <Button size="S" color="soft">취소</Button>
       <Button size="S" color="white">취소</Button>
+
+      <ButtonImage src="./assets/icon/icon-arrow-left.png" width="22px" height="22px"/>
       
       <LabeledInput label="아이디" type="text"></LabeledInput>
       <LabeledInput label="비밀번호" type="password"></LabeledInput>
