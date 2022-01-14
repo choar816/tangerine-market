@@ -35,6 +35,7 @@ function Test() {
       <Modal left="취소" right="삭제">상품을 삭제할까요?</Modal>
 
       <Topbar basic></Topbar>
+      <Topbar search></Topbar>
     </div>
   );
 }

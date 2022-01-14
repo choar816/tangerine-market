@@ -11,6 +11,23 @@ const Container = styled.div`
   border-bottom: 1px solid #dbdbdb;
 `;
 
+const Input = styled.input.attrs((props) => ({
+  placeholder: "계정 검색",
+}))`
+  margin-left: 20px;
+  padding: 7px 16px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 17.5px;
+  background-color: #F2F2F2;
+  border: none;
+  border-radius: 32px;
+  
+  ::placeholder {    
+    color: #c4c4c4;
+  }
+`
+
 function Topbar(props) {
   if (props.basic) {
     return (
@@ -22,7 +39,8 @@ function Topbar(props) {
   } else if (props.search) {
     return (
       <Container>
-  
+        <ButtonImage src="/images/icon/icon-arrow-left.png" width="22px" height="22px"/>
+        <Input></Input>
       </Container>
     );
   } else if (props.main) {
