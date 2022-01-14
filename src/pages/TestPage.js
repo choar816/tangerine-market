@@ -21,7 +21,8 @@ function Test() {
       <Button size="S" color="soft">취소</Button>
       <Button size="S" color="white">취소</Button>
 
-      <ButtonImage src="./assets/icon/icon-arrow-left.png" width="22px" height="22px"/>
+      <ButtonImage src="/images/icon/icon-arrow-left.png" width="22px" height="22px"/>
+      <ButtonImage src="/images/icon/icon-more-vertical.png" width="24px" height="24px"/>
       
       <LabeledInput label="아이디" type="text"></LabeledInput>
       <LabeledInput label="비밀번호" type="password"></LabeledInput>

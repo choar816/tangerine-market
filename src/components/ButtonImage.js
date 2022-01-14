@@ -13,6 +13,7 @@ const ButtonImage = styled.button`
   width: ${props => props.width};
   height: ${props => props.height};
   background-size: ${props => props.width} ${props => props.height};
+  background-position: center;
   
 `;
 
