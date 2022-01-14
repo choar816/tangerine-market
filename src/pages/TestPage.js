@@ -4,6 +4,7 @@ import Input from '../components/Input';
 import LabeledInput from '../components/LabeledInput';
 import UserSearch from '../components/UserSearch';
 import UserFollow from '../components/UserFollow'
+import Modal from '../components/Modal';
 
 function Test() {
   return (
@@ -29,6 +30,8 @@ function Test() {
 
       <UserSearch userName="애월읍 위니브 감귤농장" userId="@weniv_Mandarin"></UserSearch>
       <UserFollow userName="애월읍 위니브 감귤농장" userId="@weniv_Mandarin"></UserFollow>
+
+      <Modal left="취소" right="삭제">상품을 삭제할까요?</Modal>
     </div>
   );
 }
