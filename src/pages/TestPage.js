@@ -5,6 +5,7 @@ import LabeledInput from '../components/LabeledInput';
 import UserSearch from '../components/UserSearch';
 import UserFollow from '../components/UserFollow'
 import Modal from '../components/Modal';
+import Topbar from '../components/Topbar';
 
 function Test() {
   return (
@@ -32,6 +33,8 @@ function Test() {
       <UserFollow userName="애월읍 위니브 감귤농장" userId="@weniv_Mandarin"></UserFollow>
 
       <Modal left="취소" right="삭제">상품을 삭제할까요?</Modal>
+
+      <Topbar basic></Topbar>
     </div>
   );
 }
