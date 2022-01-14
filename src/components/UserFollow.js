@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import Button from "./Button";
-import ImgProfile from "../assets/basic-profile-img.png";
 
 const Container = styled.section`
   display: flex;
@@ -35,7 +34,7 @@ const ButtonFollow = styled(Button)`
 function UserFollow(props) {
   return (
     <Container>
-      <img src={ImgProfile} alt="프로필 이미지" />
+      <img src="/images/basic-profile-img.png" alt="프로필 이미지" />
       <UserInfo>
         <h2>{props.userName}</h2>
         <p>{props.userId}</p>
