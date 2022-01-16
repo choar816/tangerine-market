@@ -29,6 +29,7 @@ const Button = styled.button`
   line-height: 17.5px;
   background-color: #ffffff;
   border: none;
+  cursor: pointer;
 
   ${props => props.left && `
   border-bottom-left-radius: 10px;

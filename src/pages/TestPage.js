@@ -36,6 +36,8 @@ function Test() {
 
       <Topbar basic></Topbar>
       <Topbar search></Topbar>
+      <Topbar upload></Topbar>
+      <Topbar chat></Topbar>
     </div>
   );
 }
