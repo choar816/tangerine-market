@@ -15,7 +15,6 @@ const ButtonImage = styled.button`
   background-size: ${props => props.width} ${props => props.height};
   background-color: transparent;
   background-position: center;
-  
 `;
 
 export default ButtonImage;

@@ -6,7 +6,7 @@ import UserFollow from '../components/UserFollow'
 import Modal from '../components/Modal';
 import Topbar from '../components/Topbar';
 import Product from '../components/Product';
-
+import Post from '../components/Post';
 
 function Test() {
   return (
@@ -42,6 +42,10 @@ function Test() {
       <Topbar chat></Topbar>
 
       <Product src="/images/product-img-example.png" name="애월읍 노지 감귤" price="35000"></Product>
+      
+      <Post srcProfile="/images/basic-profile-img.png" withImg srcImg="/images/post-img-example.png" postDate="asdf"></Post>
+      <Post srcProfile="/images/basic-profile-img.png" withImg srcImg="/images/post-img-example.png" postDate="2020년 10월 20일"></Post>
+      <Post srcProfile="/images/basic-profile-img.png" postDate="asdf"></Post>
     </div>
   );
 }
