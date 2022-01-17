@@ -36,6 +36,7 @@ function Test() {
 
       <Topbar basic></Topbar>
       <Topbar search></Topbar>
+      <Topbar main></Topbar>
       <Topbar upload></Topbar>
       <Topbar chat></Topbar>
     </div>

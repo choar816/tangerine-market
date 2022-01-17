@@ -28,6 +28,13 @@ const Input = styled.input.attrs((props) => ({
   }
 `;
 
+const TopbarTitle = styled.p`
+  font-size: 18px;
+  line-height: 22px;
+  width: 100%;
+  text-align: left;
+`;
+
 const ChatPartner = styled.p`
   margin-left: 10px;
   font-size: 14px;
@@ -49,6 +56,13 @@ function Topbar(props) {
       <Container>
         <ButtonImage src="/images/icon/icon-arrow-left.png" width="22px" height="22px"/>
         <Input></Input>
+      </Container>
+    );
+  } else if (props.main) {
+    return (
+      <Container>
+        <TopbarTitle>감귤마켓 피드</TopbarTitle>
+        <ButtonImage src="/images/icon/icon-search.png" width="24px" height="24px"/>
       </Container>
     );
   } else if (props.upload) {
