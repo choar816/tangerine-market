@@ -1,11 +1,12 @@
 import Button from '../components/Button';
 import ButtonImage from '../components/ButtonImage';
-import Input from '../components/Input';
 import LabeledInput from '../components/LabeledInput';
 import UserSearch from '../components/UserSearch';
 import UserFollow from '../components/UserFollow'
 import Modal from '../components/Modal';
 import Topbar from '../components/Topbar';
+import Product from '../components/Product';
+
 
 function Test() {
   return (
@@ -39,6 +40,8 @@ function Test() {
       <Topbar main></Topbar>
       <Topbar upload></Topbar>
       <Topbar chat></Topbar>
+
+      <Product src="/images/product-img-example.png" name="애월읍 노지 감귤" price="35000"></Product>
     </div>
   );
 }
