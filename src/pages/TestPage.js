@@ -7,10 +7,13 @@ import Modal from '../components/Modal';
 import Topbar from '../components/Topbar';
 import Product from '../components/Product';
 import Post from '../components/Post';
+import TabMenu from '../components/TabMenu';
 
 function Test() {
   return (
     <div>
+      <TabMenu></TabMenu>
+
       <Button size="L" color="strong">다음</Button>
       <Button size="L" color="soft">다음</Button>
       <Button size="L" color="white">다음</Button>
