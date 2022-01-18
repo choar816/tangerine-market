@@ -8,10 +8,12 @@ import Topbar from '../components/Topbar';
 import Product from '../components/Product';
 import Post from '../components/Post';
 import TabMenu from '../components/TabMenu';
+import Comment from '../components/Comment';
 
 function Test() {
   return (
     <div>
+      <Comment></Comment>
       <TabMenu></TabMenu>
 
       <Button size="L" color="strong">다음</Button>
