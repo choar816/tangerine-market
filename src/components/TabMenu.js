@@ -13,6 +13,7 @@ const TabElement = styled.article`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   
   img {
     margin-bottom: 4px;
